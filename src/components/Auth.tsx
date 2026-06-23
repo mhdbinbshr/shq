@@ -8,7 +8,7 @@ export function Auth({ onLogin }: { onLogin: () => void }) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'shqirf789') {
+    if (password === 'thefk9090') {
       onLogin();
     } else {
       setError(true);
